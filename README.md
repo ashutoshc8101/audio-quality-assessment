@@ -17,6 +17,31 @@
 
 <p>The proposed model employs a transformer-based deep learning approach to assess audio quality. It takes hand-crafted features concatenated into a vector as input and is trained with corresponding ground-truth labels. The transformer architecture, comprising an Encoder-Decoder structure with Multi-Head Attention (MHA) and Feed-Forward layers, processes the data. We utilized four layers of the encoder, set the number of heads (h) in each MHA to four, and employed an Adam optimizer. The model outputs a single continuous value representing audio quality in the range of 1 to 5. These design choices optimize feature vectors while considering attention mechanisms for enhanced performance.</p>
 
+<p>
+   The following audio extraction features are used:
+   <br />
+   
+   <ol>
+   <li><b>Melspectogram:</b> <br />
+      Mel-Spectrogram is computed by applying a Fourier transform to analyze the frequency content of a signal and to convert it to the mel-scale, while MFCCs are calculated with a discrete cosine transform (DCT) into a melfrequency spectrogram.
+   </li>
+   <li>
+      <b>MFCC:</b> <br />
+      The mel frequency cepstral coefficients (MFCCs) of a signal are a small set of features (usually about 10-20) which concisely describe the overall shape of a spectral envelope. In MIR, it is often used to describe timbre.
+   </li>
+
+   <li>
+      <b>Spectral Contrast:</b> <br />
+      Spectral contrast is defined as the decibel difference between peaks and valleys in the spectrum.
+   </li>
+
+   <li>
+      <b>PNCC:</b> <br />
+      PNCCs introduce additional signal enhancement and noise compensation operations on the spectrogram.
+   </li>
+   </ol>
+</p>
+
 <h2 id="dependencies">Dependencies</h2>
 
 <p>To install the required dependencies, simply run the following command:</p>
