@@ -1,2 +1,4 @@
-dm_audio_interspeech/
+work/
 venv/
+udm/
+**/*.pyc
