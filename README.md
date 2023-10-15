@@ -36,6 +36,29 @@ pip install -r requirements.txt
     <li>Evaluate the model's performance.</li>
 </ol>
 
+<h2 id="acknowledgment">Acknowledgment</h2>
+
+<p>We would like to acknowledge the support and contributions of the open-source community in making this project possible. Additionally, we extend our gratitude to the following researchers and their papers:</p>
+
+<p><strong>1. Transformer-based quality assessment model for generalized user-generated multimedia audio content</strong></p>
+<p>Dataset Credits: The dataset used in this project was generously provided by Mumtaz, D., Jena, A., Jakhetiya, V., Nathwani, K., and Guntuku, S.C. as described in their paper, "Transformer-based quality assessment model for generalized user-generated multimedia audio content" (Proc. Interspeech 2022, 674-678, doi: 10.21437/Interspeech.2022-10386).</p>
+
+<p><strong>2. Improved Transformer Model for Enhanced Monthly Streamflow Predictions of the Yangtze River</strong></p>
+<p>We acknowledge the work of C. Liu, D. Liu, and L. Mu as described in their paper, "Improved Transformer Model for Enhanced Monthly Streamflow Predictions of the Yangtze River" (IEEE Access, vol. 10, pp. 58240-58253, 2022, doi: 10.1109/ACCESS.2022.3178521).</p>
+
+<p>We appreciate the valuable contributions of these researchers and the resources they provided for our project.</p>
+
+
+<h2 id="team-members">Team Members</h2>
+<p>This project was made possible by the efforts of our team members:</p>
+<ul>
+    <li>Ashutosh Chauhan</li>
+    <li>Dakshi Goel</li>
+    <li>Aman Kumar</li>
+   <li>Devin Chugh</li>
+   <li>Shreya Jain</li>
+</ul>
+
 <h2 id="contributing">Contributing</h2>
 
 <p>We welcome contributions to enhance this project. If you would like to contribute, please follow the standard GitHub pull request process.</p>
