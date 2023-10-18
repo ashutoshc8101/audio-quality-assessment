@@ -100,9 +100,9 @@
     </tr>
     <tr>
         <td>MFCC + MelSpectogram + Chroma CQT</td>
-        <td><B>0.769</B</td>
-        <td><B>0.763</B></td>
-        <td><B>0.570</B></td>
+        <td><B>0.816</B</td>
+        <td><B>0.812</B></td>
+        <td><B>0.613</B></td>
     </tr>
     <tr>
         <td>MFCC + MelSpectogram + Spectral Contrast</td>
