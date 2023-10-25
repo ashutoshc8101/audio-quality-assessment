@@ -43,7 +43,7 @@
       <th>0.613</th>
    </tr>
    <tr>
-      <th>Proposed model with 1 attention head in cross attention block</th>
+      <th>Proposed model with 4 attention head in cross attention block</th>
       <th>0.823</th>
       <th>0.821</th>
       <th>0.619</th>
